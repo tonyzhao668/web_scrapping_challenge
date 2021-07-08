@@ -1,19 +1,13 @@
 
-# Web Scraping Homework - Mission to Mars
+# Web Scraping - Mission to Mars
 
 By Tony Zhao 10/03/2021 DBCUWA
 
-Remarks : All the following requirments duly fufilled.
-          The app.py, scrap_mars.py and index.html functions achieved.
-          Agreed by Daniel, the Mars Data Table has been permanently stay in the index.html, since the data never change.
-          
-          Thanks for reviewing and comments!
-          
-
 ## Step 1 - Scraping done for the followings!
 
-Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter for the fo;;owing urls:
-Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to complete all of your scraping and analysis tasks. 
+Complete initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter for the following urls:
+Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to complete all of scraping and analysis tasks. 
+
 ### NASA Mars News
 
 * Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
@@ -21,7 +15,6 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 ### JPL Mars Space Images - Featured Image
 
 * Visit the url for JPL Featured Space Image [here](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html).
-
 * Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable
 * Make sure to find the image url to the full size `.jpg` image.
 * Make sure to save a complete url string for this image.
@@ -34,7 +27,6 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 ### Mars Hemispheres
 
 * Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
-* You will need to click each of the links to the hemispheres in order to find the image url to the full resolution image.
 * Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
 * Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
 
@@ -51,12 +43,3 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 * Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
-## Step 3 - Submission done!
-
-To submit your work to BootCampSpot, create a new GitHub repository and upload the following:
-
-1. The Jupyter Notebook containing the scraping code used.
-
-2. Screenshots of your final application.
-
-3. Submit the link to your new repository to BootCampSpot.
