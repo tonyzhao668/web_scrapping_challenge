@@ -14,6 +14,8 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 
 * Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that can reference later.
 
+![Jupyter Notebook](screenshots/news_scrap.png)
+
 ### JPL Mars Space Images - Featured Image
 
 ![Perseverance](screenshots/pers.PNG)
