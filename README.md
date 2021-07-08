@@ -1,7 +1,7 @@
 
 # Web Scraping - Mission to Mars
 
-By Tony Zhao 10/03/2021 DBCUWA
+By Tony Zhao 10/03/2021 
 
 ## Step 1 - Scraping done for the followings!
 
@@ -10,7 +10,7 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 
 ### NASA Mars News
 
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
+* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that can reference later.
 
 ### JPL Mars Space Images - Featured Image
 
