@@ -10,13 +10,19 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 
 ### NASA Mars News
 
+#### News Scrapping:
+
 ![News](screenshots/news.PNG)
 
 * Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that can reference later.
 
+#### Jupyter Notebook coding:
+
 ![Jupyter Notebook](screenshots/news_scrap.png)
 
 ### JPL Mars Space Images - Featured Image
+
+#### Picture Scrapping:
 
 ![Perseverance](screenshots/pers.PNG)
 
@@ -27,6 +33,8 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 
 ### Mars Facts
 
+#### Table content scrapping:
+
 ![Facts](screenshots/facts.PNG)
 
 
@@ -34,6 +42,8 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 * Use Pandas to convert the data to a HTML table string.
 
 ### Mars Hemispheres
+
+#### More images scrapping:
 
 ![Hemispheres 1](screenshots/hemi1.PNG)
 ![Hemispheres 1](screenshots/hemi2.PNG)
@@ -43,7 +53,9 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 * Save both the image url string for the full resolution hemisphere image, and the Hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys `img_url` and `title`.
 * Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
 
-## Step 2 - MongoDB and Flask Application done!
+## Step 2 - MongoDB, Flask Application and HTML webpage done!
+
+#### App.py and MongoDB coding:
 
 ![Flask App](screenshots/app.PNG)
 
