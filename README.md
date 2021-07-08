@@ -16,7 +16,7 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 
 ### JPL Mars Space Images - Featured Image
 
-![Perseverance](screenshots/perseverance.PNG)
+![Perseverance](screenshots/pers.PNG)
 
 * Visit the url for JPL Featured Space Image [here](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html).
 * Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable
@@ -42,6 +42,8 @@ Create a Jupyter Notebook file called `web_scrapping.ipynb` and use this to comp
 * Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
 
 ## Step 2 - MongoDB and Flask Application done!
+
+![Flask App](screenshots/app.PNG)
 
 Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
